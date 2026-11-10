@@ -1,0 +1,6 @@
+Development: 
+    npx expo install expo-dev-client
+    npx expo-doctor
+    npx eas-cli@latest login
+    npx eas-cli@latest build:configure
+    npx eas-cli@latest build --platform android --profile development

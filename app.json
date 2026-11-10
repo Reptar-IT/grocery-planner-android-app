@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Grocery Planner",
+    "slug": "grocery-inventory-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ricodaily.groceryplanner"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-status-bar", "expo-sharing", "expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": "5c49f58f-0511-4252-8156-5726fd708de8"
+      }
+    }
+  }
+}
